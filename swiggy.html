@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swiggy Clone</title>
+    <style>
+        body { 
+        font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+        header {
+         background: #fc8019; color: #fff; padding: 20px 40px; display: flex; align-items: center; }
+        header img { 
+        height: 40px; margin-right: 20px; }
+        nav {
+         margin-left: auto; }
+        nav a { 
+        color: #fff; text-decoration: none; margin-left: 20px; font-weight: bold; }
+        .container {
+         max-width: 900px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #ddd; padding: 30px; }
+        h1 { color: #fc8019; }
+        .restaurant-list { display: flex; flex-wrap: wrap; gap: 24px; }
+        .restaurant { background: #fafafa; border-radius: 8px; box-shadow: 0 1px 4px #eee; width: 260px; padding: 16px; }
+        .restaurant img { width: 100%; border-radius: 6px; }
+        .restaurant h2 { font-size: 1.2em; margin: 10px 0 6px; }
+        .restaurant p { margin: 0 0 8px; color: #666; }
+        .order-btn { background: #fc8019; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+        .order-btn:hover { background: #ff9933; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png" alt="Swiggy Logo">
+        <h1>Swiggy</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Restaurants</a>
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Popular Restaurants</h2>
+        <div class="restaurant-list">
+            <div class="restaurant">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.jKilVz-KEBlMiR3OxWtQggHaE5?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pizza Place">
+                <h2>Pizza Palace</h2>
+                <p>Italian, Pizza</p>
+                <p>⭐ 4.5 | 30 mins</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="restaurant">
+                <img src=https://static.wixstatic.com/media/6818fc_ec16e53503dd414c97ec3e3f5a2ef670~mv2.jpg/v1/fill/w_980,h_555,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6818fc_ec16e53503dd414c97ec3e3f5a2ef670~mv2.jpg" alt="Burger Joint">
+                <h2>Burger Joint</h2>
+                <p>American, Burgers</p>
+                <p>⭐ 4.2 | 25 mins</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="restaurant">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.Y-PObWgcH0GSGJOXOKYs-gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Biryani House">
+                <h2>Biryani House</h2>
+                <p>Indian, Biryani</p>
+                <p>⭐ 4.7 | 35 mins</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="restaurant">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.eb8nTGs2MGtkod5K6VhZNgHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3 "alt="Noodle Bar">
+                <h2>Noodle Bar</h2>
+                <p>Chinese, Noodles</p>
+                <p>⭐ 4.3 | 28 mins</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
